@@ -76,5 +76,8 @@ only use beta1.
 you would like the dictionary of saved parameters and statistics of 
 your model to be located if the --save option is used.
 
+--validation; Uses the last 15% of the samples of the training set 
+as the test set and the remaining samples are the training set.
+
 
 
