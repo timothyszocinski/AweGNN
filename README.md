@@ -22,8 +22,10 @@ has a hidden layer with 400 neurons followed by another hidden layer
 with 400 neurons, followed by two more layers of 20 neurons each; all 
 with the appropriate input and output layers automatically introduced)
 
--dataset [dataset name]; i.e., IGC50, LD50, solv (for solvation), MT 
-(for multi-task model), etc.
+-dataset [dataset name]; i.e., IGC50, LD50, solv (for solvation), etc. or
+'MT_' followed by datasets separated by underscores (for multi-task model), 
+i.e. MT_LC50DM_LC50_IGC50_LD50 for a multi-task network including all of 
+the four toxicity data sets.
 
 --save; Tells the model to save the model statistics in a sepcified manner.
 
